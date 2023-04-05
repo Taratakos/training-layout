@@ -1,0 +1,17 @@
+.navigation {
+  display: flex;
+  font-style: normal;
+  font-size: 1.5rem;
+  line-height: 2.8rem;
+}
+
+// Беремо за правило, що елементи ми пишимо окремо, а модифікатори можна писати всередині тому, що модифікатор без елементу і без блоку існувати не може!
+.navigation__link {
+  list-style: none;
+  padding: 0 10px;
+  cursor: pointer;
+  @extend %transition;
+  &:hover {
+    color: $color-primary;
+  }
+}

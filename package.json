@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/Taratakos/training-layout/issues"
   },
-  "homepage": "https://github.com/Taratakos/training-layout#readme"
+  "homepage": "https://github.com/Taratakos/training-layout#readme",
+  "dependencies": {
+    "normalize-scss": "^7.0.1"
+  }
 }

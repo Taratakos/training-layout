@@ -1,0 +1,28 @@
+.tools__wrapper {
+  padding-bottom: 9rem;
+  background-image: url("../../img/backgrounds/tools-bg.svg");
+  background-position: center bottom;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.tools__title {
+  max-width: 46.2rem;
+  margin: auto;
+  text-align: center;
+  margin-bottom: 7rem;
+}
+
+.tools__button {
+  margin-top: 6rem;
+  text-align: center;
+}
+
+// Tool Block
+.tool__icon {
+  margin-bottom: 3rem;
+}
+
+.tool__title {
+  margin: 0 0 1.6rem;
+}

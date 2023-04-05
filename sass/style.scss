@@ -1,3 +1,5 @@
+@import "base/normalize";
+
 // Abstract
 @import "abstract/constants";
 @import "abstract/mixins";
@@ -6,12 +8,18 @@
 // Base
 @import "base/base";
 @import "base/buttons";
+@import "base/icons";
 @import "base/logo";
+@import "base/tags";
 
 // Layouts
+@import "layouts/columns";
 @import "layouts/wrapper";
 @import "layouts/header";
 
 // Components
 @import "components/contact-us";
+@import "components/navigation";
 @import "components/promo";
+@import "components/strategies";
+@import "components/tools";

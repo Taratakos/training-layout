@@ -1,0 +1,43 @@
+.ico {
+  cursor: pointer;
+  display: inline-block;
+}
+
+.icon-square {
+  width: 5rem;
+  height: 5rem;
+  border-radius: 1.9rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  &--violet {
+    background: $color-violet;
+  }
+  &--yellow {
+    background: $color-yellow;
+  }
+  &--red {
+    background: $color-red;
+  }
+  &--blue {
+    background: $color-blue;
+  }
+}
+
+.ico--play {
+  background-image: url("../../img/icons/play.svg");
+  width: 1.8rem;
+  height: 1.9rem;
+}
+
+.ico--arrow {
+  background-image: url("../../img/icons/arrow.svg");
+  width: 1.2rem;
+  height: 1.7rem;
+}
+
+.ico--snake {
+  background-image: url("../../img/icons/snake.svg");
+  width: 1.8rem;
+  height: 1.4rem;
+}
