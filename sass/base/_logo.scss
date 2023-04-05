@@ -1,0 +1,6 @@
+/* при наведені logo svg на потрібно змінити колір logo path */
+.logo-svg:hover {
+  .logo-path {
+    fill: $color-primary;
+  }
+}

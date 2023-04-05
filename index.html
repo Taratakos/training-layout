@@ -12,20 +12,31 @@
       rel="stylesheet"
     />
 
-    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="sass/style.css" />
 
     <title>Training Layout</title>
   </head>
   <body>
     <header class="header">
-      <div class="wrapper">
-        <a href="#" class="Logo">Logo</a>
-        <nav header__navigation>
+      <div class="wrapper header__wrapper">
+        <!-- <a href="#" class="Logo"
+          ><img src="img/logo.png" alt="Productly LCC"
+        /></a> -->
+        <a href="#" class="logo">
+          <object
+            type="image/svg+xml"
+            data="./img/logo.svg"
+            class="logo-object"
+          >
+            Your browser does not support SVG
+          </object>
+        </a>
+        <nav class="header__navigation">
           <ul class="navigation">
-            <li>Home</li>
-            <li>Home</li>
-            <li>Home</li>
-            <li>Home</li>
+            <li class="navigation__link">Home</li>
+            <li class="navigation__link">Services</li>
+            <li class="navigation__link">About</li>
+            <li class="navigation__link">Product</li>
           </ul>
         </nav>
         <div class="header__buttons">
@@ -34,19 +45,27 @@
         </div>
       </div>
     </header>
+
     <section class="promo">
-      <div class="wrapper">
+      <div class="wrapper promo__wrapper">
         <div class="promo__content">
           <h1>The Design Thinking superpowers</h1>
           <p>
             Tools, tutorials, design and innovation experts, all in one place!
             The most intuitive way to imagine your next user experience.
           </p>
-          <button class="button button--bordered">Get started</button>
-          <a href="#" class="link-button">
-            <span class="'ico ico--play"></span> Watch the Video
-          </a>
+          <div class="promo__buttons">
+            <button class="button button--colored">Get started</button>
+            <a href="#" class="link-button">
+              <span class="'ico ico--play"></span> Watch the Video
+            </a>
+          </div>
         </div>
+        <img
+          src="/img/promo/promo.png"
+          class="promo__image"
+          alt="The Design Thinking superpowers"
+        />
       </div>
     </section>
 
@@ -77,6 +96,8 @@
         <div class="strategies__tags">
           <span class="tag tag--selected">All</span>
           <span class="tag tag--bordered">Art</span>
+          <span class="tag tag--bordered">Culture</span>
+          <span class="tag tag--bordered">Design</span>
         </div>
         <div class="layout-3-column">
           <div class="strategy block-shadowed">
@@ -86,9 +107,26 @@
               <span class="tag tag--colored">All</span>
             </div>
           </div>
+          <div class="strategy block-shadowed">
+            <img src="/img/strategies/2.jpg" alt="strategy" />
+            <h3>Motivation Is The First Step To Success</h3>
+            <div class="strategies__tags">
+              <span class="tag tag--colored">Culture</span>
+            </div>
+          </div>
+          <div class="strategy block-shadowed">
+            <img src="/img/strategies/3.jpg" alt="strategy" />
+            <h3>Success Steps For Your Personal Or Business Life</h3>
+            <div class="strategies__tags">
+              <span class="tag tag--colored">Culture</span>
+              <span class="tag tag--colored">Design</span>
+              <span class="tag tag--colored">Art</span>
+            </div>
+          </div>
         </div>
       </div>
     </section>
+
     <section class="about-us">
       <div class="wrapper">
         <h2>About Us</h2>
@@ -114,6 +152,14 @@
     <section class="contact-us">
       <div class="wrapper">
         <h2>Contact Us</h2>
+        <p>
+          Your About Us page is vital. It’s often the first stop in any user’s
+          journey through a website or blog. It also shouldn’t be their last,
+          because first impressions count online just as much as they do in the
+          real world. If your visitors aren’t impressed, you can expect them to
+          leave without reading your awesome content or completing a conversion
+          action (e.g., signing up for your newsletter, making a purchase).
+        </p>
         <div class="layout-2-column">
           <div class="contact-us__content">
             <p>
@@ -140,7 +186,6 @@
                   Send
                 </button>
                 <!-- Є два способи зробити відправку по замочуванню по натисканню на button (<input type = "submit"> або <button type="submit">)    -->
-                <input type="" />
               </div>
             </form>
           </div>
